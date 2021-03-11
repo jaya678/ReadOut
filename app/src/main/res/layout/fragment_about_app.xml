@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.AboutAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About The App"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="10dp"/>
+    <ImageView
+        android:id="@+id/imgBookPic"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/read_out"/>
+
+    <TextView
+        android:id="@+id/txtAboutAppContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBookPic"
+        android:layout_margin="50dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginBottom="50dp"
+        android:padding="10dp"
+        android:text="@string/about_content"
+        android:textSize="22sp"
+        android:textColor="#000"/>
+
+</RelativeLayout>

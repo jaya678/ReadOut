@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragment.ProfileFragment"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/imgProfilePic"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/profile_" />
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfilePic"
+        android:layout_marginTop="45dp"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:drawablePadding="22dp"
+        android:padding="10dp"
+        android:text="Jayashree Ghosh      "
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_action_dev"
+        android:drawablePadding="22dp"
+        android:padding="10dp"
+        android:text="Android App Developer        "
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/txtEducation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtDeveloper"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_action_engineer"
+        android:drawablePadding="20dp"
+        android:text="Btech, Electrical Engineering      "
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="22sp" />
+
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEducation"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:drawablePadding="10dp"
+        android:text="jayashreeghosh678@gmail.com"
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="22sp" />
+
+
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_action_location"
+        android:drawablePadding="10dp"
+        android:text="Kolkata, West Bengal      "
+        android:textAlignment="center"
+        android:textColor="#111111"
+        android:textSize="22sp" />
+
+
+</RelativeLayout>
